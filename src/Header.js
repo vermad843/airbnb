@@ -19,7 +19,7 @@ function Header() {
                   />
                 <SearchIcon/>
             </div>
-            <div>
+            <div className = "header__right">
                 <p>Become a host</p>
                 <LanguageIcon/>
                 <ExpandMoreIcon/>

@@ -2,7 +2,9 @@ import React,{useState} from 'react';
 import './Search.css';
 import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
+import Button from '@material-ui/core/Button';
 import {DateRangePicker} from "react-date-range";
+import PeopleIcon from '@material-ui/icons/People';
 
 function Search() {
     const [startDate, setStartDate] = useState(new Date());
@@ -25,8 +27,20 @@ function Search() {
                ranges = {[selectionRange]}
                onChange = {handleSelect}
               />
+              <h2>
+                  Number of guests
+                  <PeopleIcon/>
+              </h2>
+              <input
+                  min = {0}
+                  defaultValue = {2}
+                  type = "number"
+               />
+               <Button>
+                   Airbnb
+               </Button>
         </div>
     )
 }
 
-export default Search
+export default Search;

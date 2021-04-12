@@ -3,10 +3,11 @@ import './Banner.css';
 
 function Banner() {
     return (
-        <div>
-            <h1>I am a Banner</h1>
+        <div className = "banner">
+            <div className = "banner__info">
+            </div>
         </div>
     )
 }
 
-export default Banner
+export default Banner;

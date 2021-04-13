@@ -48,8 +48,16 @@ function SearchPage() {
                 star = {4.73}
                 price = "$30/night"
                 total = "$117 total"
-
-              />  
+              />
+            <SearchResult
+                img = "https://a0.muscache.com/ic/pictures/11850408/f7b273ea_original.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70"
+                location = "private room in uttarakhand"
+                title = "Spacious fully furnished"
+                description = "amazing place"
+                star = {4.73}
+                price = "$30/night"
+                total = "$117 total"
+              />    
         </div>
     )
 }

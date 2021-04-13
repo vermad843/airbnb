@@ -37,7 +37,7 @@ function Search() {
                   type = "number"
                />
                <Button>
-                   Airbnb
+                   Search Airbnb
                </Button>
         </div>
     )

@@ -1,3 +1,5 @@
+[x] deployed : https://airbnb-clone-1645a.web.app/
+
 [x] airbnb
 
 [x] npm install @material-ui/core
@@ -11,3 +13,21 @@
 [x] npm i date-fns
 
 [x] npm i react-router-dom
+
+Firebase : 
+
+[x] npm i -g firebase-tools
+
+[x] firebase login
+
+[x] firebase init
+
+[x] hosting
+
+[x] existing project(name  of project)
+
+[x] build directory
+
+[x] npm run build
+
+[x] firebase deploy

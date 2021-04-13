@@ -6,23 +6,25 @@ import Card from './Card';
 function Home() {
     return (
         <div className = "home">
-           <h1>Home Component</h1>
            <Banner/>
            <div className = "home__section">
                <Card
                   src = "https://a0.muscache.com/ic/pictures/11850408/f7b273ea_original.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70"
                   title = "wolverine"
                   description = "Cards are there to see"
+                  price = "$350/night"
                  />
                <Card
                   src = "https://a0.muscache.com/ic/pictures/11850408/f7b273ea_original.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70"
                   title = "wolverine"
                   description = "Cards are there to see"
+                  price = "$350/night"
                  />
                 <Card
                   src = "https://a0.muscache.com/ic/pictures/11850408/f7b273ea_original.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70"
                   title = "wolverine"
                   description = "Cards are there to see"
+                  price = "$350/night"
                  />
            </div>
            <div className = "home__section">
@@ -30,16 +32,19 @@ function Home() {
                   src = "https://a0.muscache.com/ic/pictures/11850408/f7b273ea_original.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70"
                   title = "wolverine"
                   description = "Cards are there to see"
+                  price = "$350/night"
                  />
                <Card
                   src = "https://a0.muscache.com/ic/pictures/11850408/f7b273ea_original.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70"
                   title = "wolverine"
                   description = "Cards are there to see"
+                  price = "$350/night"
                  />
                 <Card
                   src = "https://a0.muscache.com/ic/pictures/11850408/f7b273ea_original.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70"
                   title = "wolverine"
                   description = "Cards are there to see"
+                  price = "$350/night"
                  />
            </div>
         </div>

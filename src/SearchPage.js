@@ -1,6 +1,7 @@
 import React from 'react';
 import './SearchPage.css';
 import Button from '@material-ui/core/Button';
+import SearchResult from './SearchResult';
 
 function SearchPage() {
     return (
@@ -39,6 +40,7 @@ function SearchPage() {
                     More filters
                 </Button>
             </div>
+            <SearchResult/>  
         </div>
     )
 }

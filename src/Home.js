@@ -9,14 +9,38 @@ function Home() {
            <h1>Home Component</h1>
            <Banner/>
            <div className = "home__section">
-               <Card/>
-               <Card/>
-               <Card/>
+               <Card
+                  src = "https://a0.muscache.com/ic/pictures/11850408/f7b273ea_original.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70"
+                  title = "wolverine"
+                  description = "Cards are there to see"
+                 />
+               <Card
+                  src = "https://a0.muscache.com/ic/pictures/11850408/f7b273ea_original.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70"
+                  title = "wolverine"
+                  description = "Cards are there to see"
+                 />
+                <Card
+                  src = "https://a0.muscache.com/ic/pictures/11850408/f7b273ea_original.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70"
+                  title = "wolverine"
+                  description = "Cards are there to see"
+                 />
            </div>
            <div className = "home__section">
-               <Card/>
-               <Card/>
-               <Card/>
+           <Card
+                  src = "https://a0.muscache.com/ic/pictures/11850408/f7b273ea_original.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70"
+                  title = "wolverine"
+                  description = "Cards are there to see"
+                 />
+               <Card
+                  src = "https://a0.muscache.com/ic/pictures/11850408/f7b273ea_original.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70"
+                  title = "wolverine"
+                  description = "Cards are there to see"
+                 />
+                <Card
+                  src = "https://a0.muscache.com/ic/pictures/11850408/f7b273ea_original.jpg?interpolation=lanczos-none&size=large&output-format=jpg&output-quality=70"
+                  title = "wolverine"
+                  description = "Cards are there to see"
+                 />
            </div>
         </div>
     )
